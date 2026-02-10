@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+ Priya Bot – AI Voice Assistant
+ 
+📌 Overview
 
-# Run and deploy your AI Studio app
+Priya Bot is an intelligent AI Voice Assistant that uses Speech Recognition, Natural Language Processing (NLP), and Machine Learning / Deep Learning techniques to understand spoken user commands and generate meaningful voice responses. The assistant can be used for general conversation, information retrieval, and basic task automation.
 
-This contains everything you need to run your app locally.
+🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1n-wVRTeAAq5NFZOeaiFzbRRWyWQ9-bXx
+Voice input using speech recognition
 
-## Run Locally
+Natural language understanding
 
-**Prerequisites:**  Node.js
+Intent recognition and response generation
 
+Text-to-Speech (TTS) voice output
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Interactive and real-time responses
+
+🛠 Tech Stack
+
+Python
+
+SpeechRecognition
+
+NLP (Tokenization, Lemmatization, TF-IDF / Embeddings)
+
+Machine Learning / Deep Learning
+
+TensorFlow / Keras
+
+pyttsx3 / gTTS (Text-to-Speech)
+
+⚙️ Installation & Setup
+
+pip install -r requirements.txt
+python app.py
+
+📂 Project Structure
+
+priya-bot/
+│
+├── app.py
+├── model.py
+├── data/
+├── intents.json
+├── requirements.txt
+└── README.md
+🎙 How It Works
+
+User speaks a command
+
+Speech is converted to text
+
+NLP preprocessing is applied
+
+Model predicts intent
+
+Priya Bot generates voice response
+
+🎯 Use Cases
+
+Personal voice assistant
+
+College helpdesk bot
+
+Smart assistant prototype
+
+🔮 Future Enhancements
+
+Wake-word detection
+
+Multilingual support
+
+Integration with APIs (weather, news, etc.)
